@@ -1,6 +1,12 @@
 # MyITSFitness
 Laravel-based student fitness tracking web app for ITS.
 
+## Test Branch Changes
+This is a test branch with some modifications for testing purposes.
+- Added this test section to demonstrate branch functionality
+- Modified by: Test User
+- Date: November 2, 2025
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
