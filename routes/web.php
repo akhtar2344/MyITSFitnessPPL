@@ -54,3 +54,19 @@ Route::get('/student/login/myits', function () {
     return redirect()->route('student.dashboard');
 })->name('student.login.myits');
 /* ===== end Student Login ===== */
+
+/* -------------------------------------------------------------
+| LECTURER SECTION
+|--------------------------------------------------------------*/
+Route::prefix('lecturer')->name('lecturer.')->group(function () {
+    // Halaman “root” lecturer (kalau ada landing khusus)
+    Route::view('/', 'lecturer.index')->name('index');
+
+    // Dashboard lecturer
+    Route::view('/dashboard', 'lecturer.dashboard.dashboard')->name('dashboard');
+});
+
+/* -------------------------------------------------------------
+| DEFAULT / HOME
+|--------------------------------------------------------------*/
+Route::view('/', 'welcome')->name('home');
